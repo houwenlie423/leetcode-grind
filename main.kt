@@ -1,3 +1,4 @@
+import array_and_hash.groupAnagrams
 import array_and_hash.isAnagram
 import array_and_hash.twoSum
 
@@ -9,7 +10,7 @@ import array_and_hash.twoSum
 
 fun main() {
     // Entry point of DSA problems
-    println(twoSum(nums = intArrayOf(2,7,11,15), target = 9).contentToString())
-    println(twoSum(nums = intArrayOf(3,2,4), target = 6).contentToString())
-    println(twoSum(nums = intArrayOf(3,3), target = 6).contentToString())
+   println(groupAnagrams(arrayOf("eat","tea","tan","ate","nat","bat")))
+   println(groupAnagrams(arrayOf("")))
+   println(groupAnagrams(arrayOf("a")))
 }
