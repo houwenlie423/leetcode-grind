@@ -4,12 +4,11 @@ package array_and_hash
 /**
  * @author Houwen Lie (houwenlie98@gmail.com)
  * @version 01_contains_duplicate, v 0.1 Tue 10/24/2023 3:57 PM by Houwen Lie
+ *
+ * 217. Contains Duplicate [EASY]
+ * https://leetcode.com/problems/contains-duplicate/
  */
 
-/*
-    217. Contains Duplicate [EASY]
-    https://leetcode.com/problems/contains-duplicate/
- */
 fun containsDuplicate(nums: IntArray): Boolean {
     if (nums.isEmpty()) return false
 

@@ -4,12 +4,11 @@ package array_and_hash
 /**
  * @author Houwen Lie (houwenlie98@gmail.com)
  * @version 02_valid_anagram, v 0.1 Tue 10/24/2023 4:15 PM by Houwen Lie
+ *
+ * 242. Valid Anagram [EASY]
+ * https://leetcode.com/problems/valid-anagram/
  */
 
-/*
-    242. Valid Anagram [EASY]
-    https://leetcode.com/problems/valid-anagram/
- */
 fun isAnagram(s: String, t: String): Boolean {
 
     if (s.length != t.length) return false
