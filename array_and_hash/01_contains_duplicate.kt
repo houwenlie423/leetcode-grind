@@ -7,7 +7,7 @@ package array_and_hash
  */
 
 /*
-    217. Contains Duplicate
+    217. Contains Duplicate [EASY]
     https://leetcode.com/problems/contains-duplicate/
  */
 fun containsDuplicate(nums: IntArray): Boolean {

@@ -7,7 +7,7 @@ package array_and_hash
  */
 
 /*
-    1. Two Sum
+    1. Two Sum [EASY]
     https://leetcode.com/problems/two-sum/
  */
 fun twoSum(nums: IntArray, target: Int): IntArray {

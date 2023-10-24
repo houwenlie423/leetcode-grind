@@ -7,7 +7,7 @@ package array_and_hash
  */
 
 /*
-    242. Valid Anagram
+    242. Valid Anagram [EASY]
     https://leetcode.com/problems/valid-anagram/
  */
 fun isAnagram(s: String, t: String): Boolean {
