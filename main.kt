@@ -1,4 +1,4 @@
-import array_and_hash.containsDuplicate
+import array_and_hash.isAnagram
 
 /**
  * @author Houwen Lie (houwenlie98@gmail.com)
@@ -8,7 +8,7 @@ import array_and_hash.containsDuplicate
 
 fun main() {
     // Entry point of DSA problems
-    println(containsDuplicate(intArrayOf(1,2,3,1)))
-    println(containsDuplicate(intArrayOf(1,2,3,4)))
-    println(containsDuplicate(intArrayOf(1,1,1,3,3,4,3,2,4,2)))
+//    println(isAnagram(s = "anagram", t = "nagaram"))
+//    println(isAnagram("rat", t = "car"))
+    println(isAnagram("aacc", t = "ccac"))
 }
