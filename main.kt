@@ -1,4 +1,5 @@
 import array_and_hash.isAnagram
+import array_and_hash.twoSum
 
 /**
  * @author Houwen Lie (houwenlie98@gmail.com)
@@ -8,7 +9,7 @@ import array_and_hash.isAnagram
 
 fun main() {
     // Entry point of DSA problems
-//    println(isAnagram(s = "anagram", t = "nagaram"))
-//    println(isAnagram("rat", t = "car"))
-    println(isAnagram("aacc", t = "ccac"))
+    println(twoSum(nums = intArrayOf(2,7,11,15), target = 9).contentToString())
+    println(twoSum(nums = intArrayOf(3,2,4), target = 6).contentToString())
+    println(twoSum(nums = intArrayOf(3,3), target = 6).contentToString())
 }
