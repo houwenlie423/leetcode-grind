@@ -3,7 +3,7 @@ package array_and_hash
 
 /**
  * @author Houwen Lie (houwenlie98@gmail.com)
- * @version 03.two_sum, v 0.1 Tue 10/24/2023 4:40 PM by Houwen Lie
+ * @version 03_two_sum, v 0.1 Tue 10/24/2023 4:40 PM by Houwen Lie
  */
 
 /*
