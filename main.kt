@@ -1,6 +1,4 @@
-import array_and_hash.groupAnagrams
-import array_and_hash.isAnagram
-import array_and_hash.twoSum
+import two_pointers.isPalindrome
 
 /**
  * @author Houwen Lie (houwenlie98@gmail.com)
@@ -10,7 +8,7 @@ import array_and_hash.twoSum
 
 fun main() {
     // Entry point of DSA problems
-   println(groupAnagrams(arrayOf("eat","tea","tan","ate","nat","bat")))
-   println(groupAnagrams(arrayOf("")))
-   println(groupAnagrams(arrayOf("a")))
+   println(isPalindrome("A man, a plan, a canal: Panama"))
+   println(isPalindrome("race a car"))
+   println(isPalindrome(" "))
 }
