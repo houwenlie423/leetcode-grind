@@ -1,3 +1,4 @@
+import stack.validParentheses
 import two_pointers.isPalindrome
 
 /**
@@ -8,7 +9,7 @@ import two_pointers.isPalindrome
 
 fun main() {
     // Entry point of DSA problems
-   println(isPalindrome("A man, a plan, a canal: Panama"))
-   println(isPalindrome("race a car"))
-   println(isPalindrome(" "))
+   println(validParentheses("()"))
+   println(validParentheses("()[]{}"))
+   println(validParentheses("(]"))
 }
